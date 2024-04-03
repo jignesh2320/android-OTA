@@ -1,3 +1,22 @@
+Changelog - 07/04/2024
+
+- Android Security Patch 2024-03
+- Added Codec2 support
+- Added OSS+ Amplifier
+- Switch to AOSP poweroff charging animation
+- fixup! the issue with no audio output if "Google Assistant" remains enabled
+- fixup! Camera overexposure issues for gram/curtana device
+- fixup! for the Video Camera to load the filters correctly, also imported some color configurations
+- fixup! statusbar glitch
+- Import Media configs from `LA.UM.9.1.r1-15500-SMxxx0.QSSI14.0`
+- Re-configured Dolby audio frequency [Cinematic sound experience]
+- Update Pixel spoofed devices fingerprints
+- Update OpenGL v0757.0
+- Update blobs from - `gram-V14.0.5.0.SJPINXM`
+- Update CNE, DPM blobs from - `sweet-V14.0.8.0.TKFMIXM`
+- Upstream Kernel v4.14.336 --> v4.14.340 `[OpenELA LTS]`
+- Miscellaneous fixes & optimization
+
 Changelog - 21/02/2024
 
 - Android Security Patch 2024-02
