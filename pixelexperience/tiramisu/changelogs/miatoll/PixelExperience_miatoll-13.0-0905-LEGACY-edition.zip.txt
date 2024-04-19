@@ -1,0 +1,12 @@
+Changelog - 24/04/2024
+
+- Android Security Patch 2024-04
+- fixup! the issue, where the Play Store kept indicating that the app was not compatible
+- Improvement in UI (jitter free experience)
+- Bringup new Dolby Atmos configuration with DaxUI support (Cinematic sound experience with more clarity + loudness)
+- Switch back to prebuilt audio
+- fixup! the imbalanced sound output on headphones (For prebuilt audio)
+- drop! TAS2526 Amplifier (bad quality output in headphones)
+- Added stock Haptic configs.
+- Switch back to old bluetooth configs & fixup the crash for some users
+- Miscelleneous fixes & optimization
