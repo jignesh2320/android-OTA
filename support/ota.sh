@@ -8,7 +8,7 @@ CUSTOMROM=$7
 SMALL_CUSTOMROM=$8
 TAG_NAME=$9
 
-FILENAME=$(find out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d "/" -f 5)
+FILENAME=$(find OTA-Packages/$DEVICE/OTA/$CUSTOMROM*.zip | cut -d '/' -f 4-)
 if [ "$SMALL_CUSTOMROM" == "evolution" ]; then
   # Specify the JSON file path
   json_file="out/target/product/$DEVICE/$FILENAME.json"
@@ -19,9 +19,9 @@ else
   # Extract the value of the datetime field from build.prop using grep and cut
   DATETIME=$(grep "org.$SMALL_CUSTOMROM.build_date_utc=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
 fi
-ID=$(sha256sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
-FILEHASH=$(md5sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
-SIZE=$(wc -c out/target/product/$DEVICE/$CUSTOMROM*.zip | awk '{print $1}')
+ID=$(sha256sum OTA-Packages/$DEVICE/OTA/$CUSTOMROM*.zip | cut -d " " -f 1)
+FILEHASH=$(md5sum OTA-Packages/$DEVICE/OTA/$CUSTOMROM*.zip | cut -d " " -f 1)
+SIZE=$(wc -c OTA-Packages/$DEVICE/OTA/$CUSTOMROM*.zip | awk '{print $1}')
 URL=https://github.com/userariii/android-OTA/releases/download/$TAG_NAME/$FILENAME
 #URL="https://sourceforge.net/projects/android-ota/files/13/$DEVICE/$FILENAME/download"
 #URL="https://gitlab.com/userariii/OTA-builds/-/raw/master/$SMALL_CUSTOMROM/tiramisu/$DEVICE/$FILENAME"
