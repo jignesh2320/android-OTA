@@ -1,3 +1,12 @@
+Changelog - 24/06/2024
+
+- Android Security Patch 2024-05
+- Signed Build (Play Integrity Pass by-default)
+- Update Audio & Volume Policy configuration
+- Build android.hardware.media.c2 as a default instance
+- Switch to v7.0 audio configuration
+- Miscelleneous fixes & optimization
+
 Changelog - 19/04/2024
    
 - Android Security Patch 2024-04
