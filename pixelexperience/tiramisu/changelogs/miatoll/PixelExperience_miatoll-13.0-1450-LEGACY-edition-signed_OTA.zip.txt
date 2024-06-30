@@ -1,0 +1,8 @@
+Changelog - 30/06/2024
+
+- Fix the spatial audio switches implementation issue where Google makes an error in SP: 2024-02
+- Fix the QS panel issue where one side remains blank while the other side shows the QS panel in landscape mode
+- Fix the Android System Intelligence (ASI) crash
+- Pixel Launcher recent apps text selection fixes & some other features related to launcher
+- Switch back to Forza Kernel again
+- Miscelleneous fixes & optimization
