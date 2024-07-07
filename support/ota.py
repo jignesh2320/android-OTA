@@ -40,11 +40,11 @@ scos=cos.lower()
 
 print("\nGENERATING, Please wait...")
 
-print ("\nThese Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
-sf=input("\nEnter Your SourceForge Username : ")
+#print ("\nThese Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
+#sf=input("\nEnter Your SourceForge Username : ")
 
 # Sourceforge Uploading 
-os.system("scp OTA-Packages/%s/OTA/%s*.zip %s@frs.sourceforge.net://home/frs/project/ota-release/PE-LEGACY/%s/"%(codename,cos,sfname,codename))
+#os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sfname,codename))
 
 # OTA/TG
 os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,cos,scos,tag_name))
