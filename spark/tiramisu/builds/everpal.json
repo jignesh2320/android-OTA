@@ -1,0 +1,21 @@
+{
+        "error":false,
+        "filename":"Spark-13.9-OFFICIAL-everpal-20231119-gapps.zip",
+        "datetime":0000001,
+        "size":1660459162,
+        "url":"https://github.com/jignesh2023/Spark-os-/releases/tag/release-Spark-13.9-Offical-jax1",
+        "filehash":"32b4f72840377944478a63d1e7696d38",
+        "version":"14.0",
+        "status":"Active",
+        "id":"a1ed9e78a83aebbc1d01f1ed69e9ed578ad039d0d2a6986b488b6a26c48ef5cf",
+        "tg_username":"jignesh2023",
+        "device_name":"Redmi Note 11S 5G , Redmi Note 11T 5G , Poco M4 Pro 5G ",
+        "device":"everpal", 
+        "maintainers": [{
+                "main_maintainer":false,
+                "github_username":"jignesh2320",
+                "name":"jignesh shukla"
+        }],
+        "website_url":"",
+        "news_url":"https://t.me/mt6833unified_updates", 
+}
