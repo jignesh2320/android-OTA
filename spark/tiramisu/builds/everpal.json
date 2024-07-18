@@ -1,24 +1,20 @@
 {
 	"error":false,
-	"filename":"",
-	"datetime":,
-	"size":,
-	"url":"https://github.com/userariii/android-OTA/releases/download/everpal/",
+	"filename":""Spark-14.0-CUSTOM-everpal-20240718-Gapps.zip,
+	"datetime":20240718,
+	"size":1725285510,
+	"url":"https://pixeldrain.com/u/RF1QfmXv",
 	"filehash":"",
-	"version":"",
+	"version":"14.0",
 	"status":"Active",
 	"id":"",
-	"tg_username":"CRUECY",
+	"tg_username":"JIGNESH2023",
 	"device_name":"Redmi Note 11S 5G , Redmi Note 11T 5G , Poco M4 Pro 5G",
 	"device":"everpal",
-	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
 	"maintainers": [{
 		"main_maintainer":false,
-		"github_username":"userariii",
-		"name":"ARINDAM BHATTACHARJEE"
+		"github_username":"jignesh2023",
+		"name":"jignesh shukla"
 	}],
-	"donate_url":"https://paypal.me/ariii0129",
-	"website_url":"",
-	"news_url":"https://t.me/SD720G_repo",
-	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
+	"news_url":"https://t.me/mt6833unified_chat",
 }
